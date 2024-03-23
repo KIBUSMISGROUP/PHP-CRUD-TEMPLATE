@@ -3,7 +3,7 @@
     private $conn;
     public function __construct() {
         // Create connection
-        $this->conn = new mysqli("localhost", "root",'', "smis"); // connect to db
+        $this->conn = new mysqli("localhost", "root",'', "smis1"); // connect to db
          
         // Check connection
         if ($this->conn->connect_error) {
